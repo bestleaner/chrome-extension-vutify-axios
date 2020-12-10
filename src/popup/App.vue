@@ -1,13 +1,16 @@
 <template>
-  <hello-world />
+  <first-call />
+
 </template>
 
 <script>
 import HelloWorld from '@/components/HelloWorld.vue'
+// import FirstCall from '@/components/FirstCall.vue'
+import FirstCall from '../components/FirstCall.vue'
 
 export default {
   name: 'App',
-  components: { HelloWorld }
+  components: { HelloWorld, FirstCall }
 }
 </script>
 
